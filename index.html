@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Record Rack — Run your African retail business smarter</title>
+  <meta name="description" content="Track sales, manage inventory, send receipts, and accept payments — all in one app built for African retail.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <div class="brand-icon">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="2" x2="12" y2="22"></line>
+            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+          </svg>
+        </div>
+        <span class="brand-text">Record Rack</span>
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="#" class="nav-login">Log in</a>
+        <a href="#" class="btn-primary">Start free trial</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse"></span>
+          Used by 8,000+ African businesses
+        </div>
+
+        <h1 class="hero-title">Run your shop. <span class="gradient-text">Own your numbers.</span></h1>
+
+        <p class="hero-subtitle">Track sales, manage inventory, send receipts, and accept payments — all in one place built for African retail. No accountant needed.</p>
+
+        <div class="hero-ctas">
+          <a href="#" class="btn-primary btn-lg">
+            Start for free
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#features" class="btn-secondary btn-lg">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            See how it works
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-value">₦2.4B+</div>
+            <div class="stat-label">Sales tracked</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">8,000+</div>
+            <div class="stat-label">Active stores</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">14</div>
+            <div class="stat-label">Countries</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="dashboard-card">
+          <div class="dashboard-header">
+            <div>
+              <p class="dashboard-date-label">Today's overview</p>
+              <p class="dashboard-date">May 21, 2026</p>
+            </div>
+            <div class="dashboard-icon">📊</div>
+          </div>
+
+          <div class="revenue-card">
+            <p class="revenue-label">Total Revenue</p>
+            <p class="revenue-amount">₦1,248,500</p>
+            <div class="revenue-growth">
+              <span class="growth-icon">📈</span>
+              <span>+18.4% this month</span>
+            </div>
+          </div>
+
+          <div class="mini-stats">
+            <div class="mini-stat">
+              <p class="mini-stat-value">47</p>
+              <p class="mini-stat-label">Sales today</p>
+            </div>
+            <div class="mini-stat">
+              <p class="mini-stat-value">312</p>
+              <p class="mini-stat-label">Items in stock</p>
+            </div>
+            <div class="mini-stat">
+              <p class="mini-stat-value">9</p>
+              <p class="mini-stat-label">Invoices sent</p>
+            </div>
+          </div>
+
+          <div class="recent-sales">
+            <p class="recent-sales-label">Recent sales</p>
+            <div class="sales-list">
+              <div class="sale-item">
+                <div class="sale-avatar">E</div>
+                <div class="sale-info">
+                  <div class="sale-name">Emeka Okafor</div>
+                  <div class="sale-product">Rice (25kg)</div>
+                </div>
+                <div class="sale-amount">
+                  <div>₦18,500</div>
+                  <div class="sale-time">2m ago</div>
+                </div>
+              </div>
+              <div class="sale-item">
+                <div class="sale-avatar">F</div>
+                <div class="sale-info">
+                  <div class="sale-name">Fatima Bello</div>
+                  <div class="sale-product">Cooking Oil x3</div>
+                </div>
+                <div class="sale-amount">
+                  <div>₦7,200</div>
+                  <div class="sale-time">14m ago</div>
+                </div>
+              </div>
+              <div class="sale-item">
+                <div class="sale-avatar">K</div>
+                <div class="sale-info">
+                  <div class="sale-name">Kofi Mensah</div>
+                  <div class="sale-product">Sugar + Flour</div>
+                </div>
+                <div class="sale-amount">
+                  <div>₦4,800</div>
+                  <div class="sale-time">31m ago</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Logo Bar -->
+  <section class="logo-bar">
+    <div class="container">
+      <p class="logo-bar-title">Trusted by retailers across Africa</p>
+      <div class="logo-grid">
+        <span>Shoprite Nigeria</span>
+        <span>Jumia</span>
+        <span>PayStack</span>
+        <span>Flutterwave</span>
+        <span>MTN MoMo</span>
+        <span>Konga</span>
+        <span>Chipper Cash</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who is it for -->
+  <section class="section who-section">
+    <div class="container">
+      <span class="section-label">Who is this for?</span>
+      <div class="section-header">
+        <h2>Built for every type of African retailer</h2>
+        <p>Whether you run one shop or a chain across three cities, Record Rack fits your operation.</p>
+      </div>
+
+      <div class="segments-grid">
+        <div class="segment-card">
+          <div class="segment-icon icon-store">🏪</div>
+          <h3>General stores</h3>
+          <p>Track every item sold, know what to restock, and print receipts on the spot.</p>
+        </div>
+        <div class="segment-card">
+          <div class="segment-icon icon-fashion">👕</div>
+          <h3>Fashion & clothing</h3>
+          <p>Manage variants by size and color, send branded invoices, and monitor margins.</p>
+        </div>
+        <div class="segment-card">
+          <div class="segment-icon icon-food">☕</div>
+          <h3>Food & beverage</h3>
+          <p>Log daily sales fast, track expiry dates, and share receipts via WhatsApp.</p>
+        </div>
+        <div class="segment-card">
+          <div class="segment-icon icon-pharmacy">💊</div>
+          <h3>Pharmacies</h3>
+          <p>Stay on top of stock levels, get low-stock alerts, and keep clean sales records.</p>
+        </div>
+        <div class="segment-card">
+          <div class="segment-icon icon-agro">🌾</div>
+          <h3>Agro dealers</h3>
+          <p>Manage bulk goods and seasonal inventory with simple sales reporting.</p>
+        </div>
+        <div class="segment-card">
+          <div class="segment-icon icon-market">🛍️</div>
+          <h3>Market traders</h3>
+          <p>Record sales on your phone, no electricity or big computer required.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem Section -->
+  <section class="problem-section">
+    <div class="container">
+      <h2 class="problem-title">Running a shop on guesswork is costing you money every day</h2>
+
+      <div class="problems-grid">
+        <div class="problem-card">
+          <span class="problem-label">Slow</span>
+          <h3>Paper ledgers and Excel sheets lose sales data</h3>
+          <p>Your staff forget to record transactions, calculations are wrong, and you never know your actual profit at the end of the day.</p>
+        </div>
+        <div class="problem-card">
+          <span class="problem-label">Expensive</span>
+          <h3>Western POS systems don't fit African retail</h3>
+          <p>Most point-of-sale software is built for Europe and the US — expensive subscriptions, foreign currencies, and no support for mobile money.</p>
+        </div>
+        <div class="problem-card">
+          <span class="problem-label">Risky</span>
+          <h3>No inventory visibility means money leaking out</h3>
+          <p>You can't tell what's running out, what's expired, or what staff are stealing. Guessing reorder levels burns capital you can't afford to waste.</p>
+        </div>
+      </div>
+
+      <div class="problem-solution">
+        <h3>Record Rack fixes all of this. No setup fee. No accountant.</h3>
+        <p>One simple app that gives you real numbers about your business, built for how African retail actually works.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <span class="section-label">Features</span>
+      <div class="section-header">
+        <h2>Everything your store needs.<br>Nothing you don't.</h2>
+        <p>Purpose-built tools that work in low-bandwidth environments, on any device.</p>
+      </div>
+
+      <div class="features-tabs">
+        <button class="feature-tab active" data-feature="sales">
+          <span class="tab-icon">💰</span> Sales tracking
+        </button>
+        <button class="feature-tab" data-feature="inventory">
+          <span class="tab-icon">📦</span> Inventory
+        </button>
+        <button class="feature-tab" data-feature="receipts">
+          <span class="tab-icon">🧾</span> Receipts
+        </button>
+        <button class="feature-tab" data-feature="payments">
+          <span class="tab-icon">💳</span> Payments
+        </button>
+        <button class="feature-tab" data-feature="reports">
+          <span class="tab-icon">📊</span> Reports
+        </button>
+        <button class="feature-tab" data-feature="invoices">
+          <span class="tab-icon">📄</span> Invoices
+        </button>
+      </div>
+
+      <div class="features-content">
+        <div class="feature-detail active" id="sales">
+          <div class="feature-text">
+            <h3>Record every sale in seconds</h3>
+            <p>Log sales with a tap. Add items, quantities, and prices. Get a running total for the day, week, and month. Works offline — syncs when you're back online.</p>
+            <ul class="feature-bullets">
+              <li>Quick-add items from your product catalog</li>
+              <li>Accept cash, card, and mobile money</li>
+              <li>End-of-day summary automatically generated</li>
+              <li>Multi-staff sale attribution</li>
+            </ul>
+          </div>
+          <div class="feature-preview">
+            <div class="preview-card">
+              <p class="preview-label">New Sale</p>
+              <div class="preview-items">
+                <div class="preview-item">
+                  <span>Indomie (carton)</span>
+                  <span>₦9,000</span>
+                </div>
+                <div class="preview-item">
+                  <span>Peak Milk x24</span>
+                  <span>₦14,400</span>
+                </div>
+                <div class="preview-item">
+                  <span>Spaghetti 500g x10</span>
+                  <span>₦7,500</span>
+                </div>
+              </div>
+              <div class="preview-total">
+                <span>Total</span>
+                <span>₦30,900</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-detail" id="inventory">
+          <div class="feature-text">
+            <h3>Know exactly what you have</h3>
+            <p>Track stock levels in real time. Set reorder points and get notified before you run out. See which products move fast and which are sitting idle.</p>
+            <ul class="feature-bullets">
+              <li>Automatic stock deduction on every sale</li>
+              <li>Low stock and out-of-stock alerts</li>
+              <li>Bulk import from CSV or spreadsheet</li>
+              <li>Expiry date tracking for perishables</li>
+            </ul>
+          </div>
+          <div class="feature-preview">
+            <div class="preview-card">
+              <div class="preview-header">
+                <p class="preview-label">Inventory status</p>
+                <span class="alert-badge">3 low stock</span>
+              </div>
+              <div class="inventory-list">
+                <div class="inventory-item">
+                  <div class="inventory-name">Semovita 2kg</div>
+                  <div class="inventory-bar">
+                    <div class="inventory-fill" style="width: 16%"></div>
+                  </div>
+                  <div class="inventory-count">8 left</div>
+                </div>
+                <div class="inventory-item">
+                  <div class="inventory-name">Tomato paste x12</div>
+                  <div class="inventory-bar">
+                    <div class="inventory-fill" style="width: 40%"></div>
+                  </div>
+                  <div class="inventory-count">24 left</div>
+                </div>
+                <div class="inventory-item">
+                  <div class="inventory-name">Vegetable oil 5L</div>
+                  <div class="inventory-bar">
+                    <div class="inventory-fill low" style="width: 10%"></div>
+                  </div>
+                  <div class="inventory-count">3 left</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-detail" id="receipts">
+          <div class="feature-text">
+            <h3>Professional receipts customers actually keep</h3>
+            <p>Send branded receipts instantly via WhatsApp, SMS, or email. Generate formal invoices for B2B customers and track which ones are paid or outstanding.</p>
+            <ul class="feature-bullets">
+              <li>Custom logo and brand colors on receipts</li>
+              <li>Send via WhatsApp, SMS, or email</li>
+              <li>Track paid and unpaid invoices</li>
+              <li>PDF download for record-keeping</li>
+            </ul>
+          </div>
+          <div class="feature-preview">
+            <div class="preview-card">
+              <div class="preview-receipt-header">
+                <span class="receipt-badge">Paid</span>
+                <div>
+                  <p class="receipt-shop">Emeka's Superstore</p>
+                  <p class="receipt-number">Receipt #0847</p>
+                </div>
+              </div>
+              <div class="receipt-items">
+                <div class="receipt-item">
+                  <span>Garri 10kg</span>
+                  <span>₦4,500</span>
+                </div>
+                <div class="receipt-item">
+                  <span>Egusi 1kg</span>
+                  <span>₦3,200</span>
+                </div>
+                <div class="receipt-item">
+                  <span>Groundnut oil 2L</span>
+                  <span>₦5,800</span>
+                </div>
+              </div>
+              <div class="receipt-total">
+                <span>Total paid</span>
+                <span>₦13,500</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-detail" id="payments">
+          <div class="feature-text">
+            <h3>Accept any payment method</h3>
+            <p>Accept cash, card, and every mobile money wallet your customers use — MTN MoMo, Airtel Money, M-Pesa, OPay, PalmPay, and more.</p>
+            <ul class="feature-bullets">
+              <li>One QR code for all payment methods</li>
+              <li>Instant payment confirmation</li>
+              <li>Automatic reconciliation with sales</li>
+              <li>No extra hardware required</li>
+            </ul>
+          </div>
+          <div class="feature-preview">
+            <div class="preview-card">
+              <p class="preview-label">Payment method</p>
+              <div class="payment-grid">
+                <button class="payment-btn">Cash</button>
+                <button class="payment-btn">Card</button>
+                <button class="payment-btn active">MTN MoMo</button>
+                <button class="payment-btn">M-Pesa</button>
+                <button class="payment-btn">OPay</button>
+                <button class="payment-btn">PalmPay</button>
+              </div>
+              <div class="payment-amount">
+                <p>Amount to collect</p>
+                <p class="amount">₦30,900</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-detail" id="reports">
+          <div class="feature-text">
+            <h3>Understand your business at a glance</h3>
+            <p>Get daily, weekly, and monthly reports without lifting a finger. See your best-selling products, peak sales hours, and profit margins.</p>
+            <ul class="feature-bullets">
+              <li>Automated end-of-day reports</li>
+              <li>Best-selling products ranking</li>
+              <li>Gross and net profit summaries</li>
+              <li>Export to Excel or PDF</li>
+            </ul>
+          </div>
+          <div class="feature-preview">
+            <div class="preview-card">
+              <div class="preview-header">
+                <p class="preview-label">This week</p>
+                <span class="growth-badge">+23.1%</span>
+              </div>
+              <div class="chart">
+                <div class="chart-bar" style="height: 40%"></div>
+                <div class="chart-bar" style="height: 65%"></div>
+                <div class="chart-bar" style="height: 45%"></div>
+                <div class="chart-bar" style="height: 80%"></div>
+                <div class="chart-bar" style="height: 60%"></div>
+                <div class="chart-bar active" style="height: 90%"></div>
+                <div class="chart-bar" style="height: 75%"></div>
+              </div>
+              <div class="report-stats">
+                <div class="report-stat">
+                  <span>Revenue</span>
+                  <span>₦847,200</span>
+                </div>
+                <div class="report-stat">
+                  <span>Expenses</span>
+                  <span>₦412,000</span>
+                </div>
+                <div class="report-stat profit">
+                  <span>Profit</span>
+                  <span>₦435,200</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-detail" id="invoices">
+          <div class="feature-text">
+            <h3>Send invoices. Get paid on time.</h3>
+            <p>Create professional invoices in seconds for wholesale and B2B customers. Send automatic payment reminders so you stop chasing people.</p>
+            <ul class="feature-bullets">
+              <li>Custom invoice templates with your branding</li>
+              <li>Automatic payment reminders</li>
+              <li>Mark invoices paid with one tap</li>
+              <li>Supports multiple currencies (NGN, GHS, KES, ZAR)</li>
+            </ul>
+          </div>
+          <div class="feature-preview">
+            <div class="preview-card">
+              <div class="preview-header">
+                <p class="preview-label">Invoices</p>
+                <button class="new-btn">+ New</button>
+              </div>
+              <div class="invoices-list">
+                <div class="invoice-row">
+                  <div class="invoice-client">Adeyemi Wholesale</div>
+                  <div class="invoice-amount">₦240,000</div>
+                  <span class="invoice-status paid">Paid</span>
+                </div>
+                <div class="invoice-row">
+                  <div class="invoice-client">Grace Stores Ltd</div>
+                  <div class="invoice-amount">₦98,500</div>
+                  <span class="invoice-status overdue">Overdue</span>
+                </div>
+                <div class="invoice-row">
+                  <div class="invoice-client">Northern Foods Co.</div>
+                  <div class="invoice-amount">₦175,000</div>
+                  <span class="invoice-status pending">Pending</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="testimonials-header">
+        <span class="section-label">What businesses say</span>
+        <h2>Real results from real African shops</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-quote">"Before Record Rack I was balancing three notebooks and still couldn't tell you my weekly profit. Now I check my phone and I know everything. I caught a ₦40,000 stock discrepancy in the first month."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">C</div>
+            <div>
+              <p class="author-name">Chidinma Okonkwo</p>
+              <p class="author-role">Owner, Chidi's Supermarket · Lagos</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-quote">"My wholesale clients love getting invoices on WhatsApp. Payments that used to take two weeks now come in within two days because I send reminders automatically."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <p class="author-name">Abdul-Rashid Mensah</p>
+              <p class="author-role">Founder, Mensah Traders · Accra</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-quote">"The inventory tracking alone is worth it. I used to lose thousands on expired drugs I didn't know were sitting there. Now I get alerts weeks before anything expires."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">N</div>
+            <div>
+              <p class="author-name">Ngozi Eze</p>
+              <p class="author-role">Pharmacist · Enugu</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-quote">"I have four branches and I can see all of them from one dashboard. My accountant spends half the time she used to because everything is already reconciled."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">K</div>
+            <div>
+              <p class="author-name">Kwame Asante</p>
+              <p class="author-role">Multi-branch retailer · Kumasi</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-quote">"Record Rack works in French too which matters for me. The inventory by size and color is something I couldn't find anywhere else for my budget."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <p class="author-name">Amina Diallo</p>
+              <p class="author-role">Fashion boutique owner · Dakar</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-quote">"I run a market stall with no stable internet. Record Rack saves everything offline and syncs when I get signal. Never lost a single record."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">E</div>
+            <div>
+              <p class="author-name">Emeka Obi</p>
+              <p class="author-role">Electronics trader · Onitsha</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing-section">
+    <div class="container">
+      <span class="section-label">Pricing</span>
+      <div class="pricing-header">
+        <h2>Pricing built for African businesses</h2>
+        <p>No foreign currency. No surprise fees. Pay in naira, cedis, or shillings.</p>
+      </div>
+
+      <div class="pricing-toggle">
+        <span>Monthly</span>
+        <button class="toggle-switch" id="pricingToggle">
+          <div class="toggle-knob"></div>
+        </button>
+        <span>Annual <span class="save-badge">Save 22%</span></span>
+      </div>
+
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <h3>Starter</h3>
+          <p class="price-tag">Free</p>
+          <p class="price-desc">Perfect for market traders and solo shops just getting started.</p>
+          <ul class="pricing-features">
+            <li>✓ Up to 100 products</li>
+            <li>✓ Up to 50 sales/month</li>
+            <li>✓ Basic receipts via WhatsApp</li>
+            <li>✓ Daily sales summary</li>
+            <li>✓ Single user</li>
+          </ul>
+          <a href="#" class="btn-pricing">Start for free</a>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="badge-popular">Most popular</div>
+          <h3>Growth</h3>
+          <p class="price-tag">₦<span class="price-monthly">4,500</span><span class="price-yearly" style="display: none">3,500</span>/month</p>
+          <p class="price-desc">For growing shops that need full inventory control and invoicing.</p>
+          <ul class="pricing-features">
+            <li>✓ Unlimited products</li>
+            <li>✓ Unlimited sales</li>
+            <li>✓ Branded receipts & invoices</li>
+            <li>✓ Inventory alerts & tracking</li>
+            <li>✓ Payment collection (all methods)</li>
+            <li>✓ Weekly & monthly reports</li>
+            <li>✓ Up to 3 staff accounts</li>
+          </ul>
+          <a href="#" class="btn-pricing btn-featured">Start 14-day trial</a>
+        </div>
+
+        <div class="pricing-card">
+          <h3>Business</h3>
+          <p class="price-tag">₦<span class="price-monthly">12,000</span><span class="price-yearly" style="display: none">9,500</span>/month</p>
+          <p class="price-desc">For multi-branch retailers and businesses with wholesale customers.</p>
+          <ul class="pricing-features">
+            <li>✓ Everything in Growth</li>
+            <li>✓ Up to 5 branches</li>
+            <li>✓ Multi-branch dashboard</li>
+            <li>✓ Wholesale invoice management</li>
+            <li>✓ Advanced profit & margin reports</li>
+            <li>✓ Unlimited staff accounts</li>
+            <li>✓ Priority support</li>
+            <li>✓ Custom integrations (API)</li>
+          </ul>
+          <a href="#" class="btn-pricing">Contact sales</a>
+        </div>
+      </div>
+
+      <p class="pricing-note">All prices shown in Nigerian Naira (NGN). Also available in GHS, KES, ZAR, and USD. No credit card required for free trial.</p>
+    </div>
+  </section>
+
+  <!-- Security Section -->
+  <section class="security-section">
+    <div class="container">
+      <div class="security-header">
+        <span class="section-label">Security & reliability</span>
+        <h2>Your business data is safe with us</h2>
+        <p>We take data security as seriously as you take your business. Your records are protected, private, and always available.</p>
+      </div>
+
+      <div class="security-grid">
+        <div class="security-card">
+          <div class="security-icon">🔐</div>
+          <h3>Bank-grade encryption</h3>
+          <p>All your sales data, customer records, and payment information is encrypted at rest and in transit.</p>
+        </div>
+        <div class="security-card">
+          <div class="security-icon">🔒</div>
+          <h3>Staff access controls</h3>
+          <p>Give each staff member their own PIN. Control what they can see and edit. Every action is logged.</p>
+        </div>
+        <div class="security-card">
+          <div class="security-icon">💾</div>
+          <h3>Automatic backups</h3>
+          <p>Your data is backed up every hour. Even if your phone is lost or broken, everything is recoverable.</p>
+        </div>
+        <div class="security-card">
+          <div class="security-icon">📱</div>
+          <h3>Works offline</h3>
+          <p>No internet? No problem. Record Rack stores data locally and syncs automatically when you reconnect.</p>
+        </div>
+      </div>
+
+      <div class="security-stats">
+        <div class="security-stat">
+          <p class="stat-number">99.9%</p>
+          <p class="stat-text">Uptime guarantee</p>
+        </div>
+        <div class="security-stat">
+          <p class="stat-number">256-bit</p>
+          <p class="stat-text">AES encryption</p>
+        </div>
+        <div class="security-stat">
+          <p class="stat-number">GDPR</p>
+          <p class="stat-text">Compliant</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div class="faq-header">
+        <span class="section-label">FAQs</span>
+        <h2>Questions we get asked</h2>
+      </div>
+
+      <div class="faq-items">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is Record Rack really free to start?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. The Starter plan is completely free with no credit card required. You get 100 products and 50 sales per month — enough to try everything and see results before paying a cent.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Does it work without internet?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Record Rack stores all your data locally on your device. You can record sales, check inventory, and print receipts even when your network is down. Everything syncs automatically when you reconnect.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Which payment methods can my customers use?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Cash, debit/credit cards, MTN MoMo, Airtel Money, M-Pesa, OPay, PalmPay, and bank transfers. We cover the most widely used payment methods across Nigeria, Ghana, Kenya, and South Africa.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can I use it on my phone?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Record Rack works on any Android or iPhone browser, no app download required. We also have a dedicated Android app on the Play Store optimized for small shop screens.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What currencies does it support?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Nigerian Naira (NGN), Ghanaian Cedi (GHS), Kenyan Shilling (KES), South African Rand (ZAR), US Dollar (USD), and more. You set your home currency and everything reports in it.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can I manage multiple branches?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, on the Business plan. You get a single dashboard that shows all branches side by side — revenue, inventory, and staff activity across every location.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How does inventory tracking work?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>When you record a sale, Record Rack automatically subtracts the sold quantity from your stock. Set a reorder point for each product and you'll get an alert when stock drops below that level.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can I give my staff their own login?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. You create a PIN for each staff member. You control what they can see — some staff can only record sales, while a manager might see reports and inventory. Every action is logged to the right person.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Start running your shop on real numbers today</h2>
+      <p>Join 8,000+ African businesses that know exactly how much they made today. Start free, upgrade when you're ready.</p>
+      <div class="cta-buttons">
+        <a href="#" class="btn-primary btn-lg">
+          Start for free — no card needed
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <a href="#" class="btn-secondary btn-lg">Book a live demo</a>
+      </div>
+      <p class="cta-note">Free 14-day trial on all paid plans. No credit card required.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="brand-icon-dark">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="2" x2="12" y2="22"></line>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+          </div>
+          <span class="brand-text-dark">Record Rack</span>
+          <p class="footer-desc">The retail operating system built for African businesses. Track, sell, and grow.</p>
+          <div class="social-links">
+            <a href="#">𝕏</a>
+            <a href="#">in</a>
+            <a href="#">IG</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <h4>Product</h4>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Changelog</a>
+            <a href="#">Roadmap</a>
+          </div>
+          <div>
+            <h4>Resources</h4>
+            <a href="#">Help center</a>
+            <a href="#">Blog</a>
+            <a href="#">API docs</a>
+            <a href="#">Status</a>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Press</a>
+            <a href="#">Contact</a>
+          </div>
+          <div>
+            <h4>Legal</h4>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of service</a>
+            <a href="#">Cookie policy</a>
+            <a href="#">GDPR</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Record Rack. Built with care for African retail.</p>
+        <div class="status">
+          <span class="status-dot"></span>
+          <span>All systems operational</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
