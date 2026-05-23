@@ -562,6 +562,24 @@ body {
   margin-bottom: 32px;
 }
 
+.testimonial-title-1 {
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-text-light);
+  margin-bottom: 32px;
+}
+
+.testimonial-person-1 {
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  letter-spacing: 1px;
+  margin-bottom: 32px;
+}
+
 .logo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
